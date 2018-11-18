@@ -1,0 +1,44 @@
+{
+  "name": "damtoken_ico",
+  "version": "1.0.0",
+  "description": "Initial Coin Offering of DAMT tokens",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3artek/DAMToken.git"
+  },
+  "author": "3art@damt.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3artek/DAMToken/issues"
+  },
+  "homepage": "https://github.com/3artek/DAMToken#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-bignumber": "^2.0.2",
+    "coveralls": "^3.0.1",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "ethjs-abi": "^0.2.1",
+    "ganache-cli": "6.1.0",
+    "solidity-coverage": "^0.5.4",
+    "solium": "^1.1.8",
+    "truffle": "^4.1.14",
+    "truffle-hdwallet-provider": "0.0.5",
+    "web3-utils": "^1.0.0-beta.34"
+  },
+  "devDependencies": {
+    "openzeppelin-solidity": "^2.0.0"
+  }
+}

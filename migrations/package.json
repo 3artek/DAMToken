@@ -1,0 +1,17 @@
+{
+  "name": "dam-token-sale",
+  "version": "0.0.1",
+  "description": "DAM Token Sale ICO",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "3art",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
