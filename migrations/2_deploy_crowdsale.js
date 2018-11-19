@@ -1,4 +1,4 @@
-var DAMToken = artifacts.require("./DAMToken.sol");
+const DAMToken = artifacts.require("./DAMToken.sol");
 
 module.exports = function(deployer) {
   const _name = "DAMToken";
